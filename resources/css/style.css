@@ -50,7 +50,7 @@ header {
     justify-content: center;
     height: 700px;
     width: 1200px;
-    margin-top: 70px;
+    top: 70px;;
     margin-left: auto;
     margin-right: auto;
 }
@@ -72,4 +72,54 @@ header {
 #handpicked {
     width: 1000px;
     margin: 0 auto;
+}
+
+/* Tea of the Month */
+#tea-of-the-month-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tea-section-headers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 136px;
+}
+
+#steeping {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#month-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.month-flex-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#move-right {
+    margin-left: 157px;
+}
+
+#move-left {
+    margin-right: 157px;
+}
+
+.month-images {
+    width: 300px;
+    height: 200px;
 }
