@@ -1,0 +1,50 @@
+html, body {
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+/* Header section */
+header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 5;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+}
+
+#header-links-wrapper {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header-links {
+    text-decoration: underline;
+    padding: 15px;
+}
+
+
+/* Main Section */
+#main-section {
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#mission-image {
+    position: absolute;
+    z-index: 0;
+    height: 700px;
+    width: 1200px;
+}
