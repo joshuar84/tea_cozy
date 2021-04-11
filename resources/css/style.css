@@ -161,3 +161,27 @@ header {
 .loc-deets {
     margin: 0;
 }
+
+/* Contact Section */
+#contact-deets {
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#tea-contact {
+    margin-top: 15px;
+}
+
+#phone-number {
+    margin-top: 0;
+}
+
+#copyright {
+    padding-left: 0;
+    margin-left: 20px;
+}
