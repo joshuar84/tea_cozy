@@ -112,14 +112,52 @@ header {
 }
 
 #move-right {
-    margin-left: 157px;
+    margin-left: 160px;
 }
 
 #move-left {
-    margin-right: 157px;
+    margin-right: 160px;
 }
 
 .month-images {
     width: 300px;
     height: 200px;
+}
+
+/* Locations Section */
+#locations-pic {
+    background-image: url("../images/img-locations-background.jpg");
+    width: 1200px;
+    height: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#locations-header {
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    margin: auto auto 0 auto;
+    padding-bottom: 15px;
+}
+
+.location-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    margin-top: 0;
+    opacity: 1;
+}
+
+.loc-deets {
+    margin: 0;
 }
