@@ -40,6 +40,10 @@ header {
     padding: 15px;
 }
 
+section {
+    position: relative;
+    z-index: -10;
+}
 
 /* Main Section */
 #main-section {
